@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Trabajo practico 4</title>
+        <link rel="stylesheet" href="/TP4/CSS/tp4.css">
+    </head>
+
+
+    <body>
+        <div class="contenedor">
+            <div class="encriptacion">
+                <h2 id="tituloMensaje">Ingrese un numero aqui </h2>
+                <input type="number" name="num" id="num" class="encriptacionNumero"/>
+
+
+                <div class="encriptacionBotones">
+                    <input type="button" value="Encriptar" class="botones botonEncriptar" onclick="encriptar()">
+                    <input type="button" value="Desencriptar" class="botones botonDesencriptar" onclick="desencriptar()">
+                </div>
+            </div>
+
+
+            <div class="encriptado">
+                <div class="mensajeEncriptado" id="mensajeEncriptado">
+                    <p id="mensaje" class="mensaje"></p>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script src="/TP4/JS/tp4.js"></script>
+
+
+</html>

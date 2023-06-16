@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .contenedor {
+    background-color: antiquewhite;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 15%;
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #000000;
+  }
+  
+  h2 {
+    color: #000000;
+    text-align: center;
+  }
+  
+  p {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: medium;
+  }
+  
+  /* Estilos para la sección de encriptación */
+  .encriptacion {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .encriptacionNumero {
+    background-color: #cecece;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .encriptacionBotones {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .botones {
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  .botonEncriptar {
+    background-color: #2af034;
+    color: #000000;
+  }
+  
+  .botonDesencriptar {
+    background-color: #eb2929;
+    color: #fff;
+  }
+  
+  /* Estilos para la sección de mensaje encriptado */
+  .encriptado {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  .mensajeEncriptado {
+    background-color: #cecece;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
